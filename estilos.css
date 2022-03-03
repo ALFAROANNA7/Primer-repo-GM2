@@ -42,13 +42,9 @@ body{
     width: 100% ;
     height: 90%;
     margin-top: 2vh;
-    margin-left: 5vh;
     text-align: center;
 }
-.horario{
-    font-size: 25px;
-    color: #6fa042;
-}
+
 .donde{
     text-align: center;
     font-size: 27px;
@@ -80,10 +76,10 @@ body{
 }
 .nosotros{
     text-align: center;
-    font-size: 40px;
+    font-size: 2rem;
     background-color: #89ac76;
-    color: black;
-    letter-spacing: 15px;
+    color: whitesmoke;
+    letter-spacing: 2rem;
     margin: 1px;
     padding: 3px;
     margin-top: 5vh;
@@ -97,22 +93,7 @@ body{
     margin-top: 10vh;
     color:black;
     text-shadow: 2px 2px 3px black;
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: 3;
-    animation-direction: alternate;
-  }
   
-  @keyframes slidein {
-    from {
-      margin-left:100%;
-      width:300%
-    }
-  
-    to {
-     margin-left:0%;
-     width:100%;
-   }
 }
 .eucalipto{
     width: 600px;
@@ -123,7 +104,7 @@ body{
 }
 
 #background2{
-    background-image: url(./imagenes/fondo-taza.jpeg);
+    background-image: url(./imagenes/fondo-nosotros.jpeg);
     background-size: cover;
     background-position: center;
 
@@ -206,5 +187,49 @@ body{
     margin-top:5vh;
 }
 .grilla-index{
-   margin-top: 10vh ;
+   margin-top: 5% ;
+   margin-bottom: 5% ;
 }
+.futer{
+    margin-top: 5% ;
+    margin-bottom: 5% ;
+ }
+
+.textarea{
+    width: 100%;
+}
+.pie-grilla{
+    font-size: 1.5rem;
+    color:black;
+    margin: 5%;
+    text-align: center;
+}
+.scale-in-hor-center {
+	-webkit-animation: scale-in-hor-center 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-hor-center 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes scale-in-hor-center {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-hor-center {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      opacity: 1;
+    }
+  }
+  

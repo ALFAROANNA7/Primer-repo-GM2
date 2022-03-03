@@ -1,0 +1,35 @@
+.footer{
+    &__grilla{
+        text-align: center;
+    }
+    &__titulosfooter{
+        text-align: center;
+        font-size: 30px;
+        color: #896b49;
+    }
+    &__copy{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 90px;
+    }
+    &__afip{
+        width: 50px;
+        display: block;
+        margin: auto;
+    }
+    &__footer-produ{
+        margin-top: 31px;
+      }
+    &__footer-contacto{
+        text-align: center;
+        margin-top: 30vh;
+    }
+    &__futer{
+        margin-top: 5% ;
+        margin-bottom: 5% ;
+     }
+    &__cards{
+        height: 10vh;
+    }
+        
+}
