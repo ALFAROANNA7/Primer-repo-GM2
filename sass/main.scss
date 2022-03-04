@@ -1,21 +1,5 @@
-body{
-    background-image: url(../imagenes/fondo-principal.jpeg);
-    background-attachment: fixed;
-}
+@import"../parciales/variables";
+@import "../parciales/extras";
 @import"../parciales/header";
 @import"../parciales/main1";
 @import"../parciales/footer";
-
-
-
-
-
-
-
-#background2{
-    background-image: url(../imagenes/fondo-nosotros.jpeg);
-    background-size: cover;
-    background-position: center;
-
-}
-

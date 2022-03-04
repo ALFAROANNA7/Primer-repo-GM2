@@ -1,3 +1,4 @@
+@import"./variables";
 .main1{
     &__grilla-index{
         margin-top: 50vh;
@@ -12,7 +13,7 @@
         text-align: center;
         font-size: 27px;
         color: rgb(37, 34, 34);
-        background-color: #89ac76;
+        background-color: $verde-grano;
         margin: 1vh;
         padding: 1vh;
     }   
@@ -22,18 +23,13 @@
         margin-top: 2vh;
         text-align: center;
     } 
-    &__donde{
-        text-align: center;
-        font-size: 27px;
-        color: rgb(37, 34, 34);
-        background-color: #89ac76;
-        margin: 1vh;
-        padding: 1vh;
+    &__consulta--__donde{
+        @extend .main1__consulta;
     }
     &__nosotros{
         text-align: center;
         font-size: 2rem;
-        background-color: #89ac76;
+        background-color: $verde-grano;
         color: whitesmoke;
         letter-spacing: 2rem;
         margin: 1px;
@@ -51,7 +47,7 @@
     &__cuadernos{
         text-align: center;
         font-size: 40px;
-        background-color: #89ac76;
+        background-color: $verde-grano;
         color:beige;
         letter-spacing: 15px;
         margin: 1px;
@@ -59,27 +55,11 @@
         margin-top: 5vh;
         margin-bottom: 3vh;
     }
-    &__decohogar{
-        text-align: center;
-        font-size: 40px;
-        background-color: #89ac76;
-        color:beige;
-        letter-spacing: 15px;
-        margin: 1px;
-        padding: 3px;
-        margin-top: 5vh;
-        margin-bottom: 3vh;
+    &__cuadernos--__decohogar{
+        @extend .main1__cuadernos;
     }
-    &__contacto{
-        text-align: center;
-        font-size: 40px;
-        background-color: #89ac76;
-        color:beige;
-        letter-spacing: 15px;
-        margin: 1px;
-        padding: 3px;
-        margin-top: 5vh;
-        margin-bottom: 3vh;
+    &__cuadernos--__contacto{
+        @extend .main1__cuadernos;
     }
     &__texto-contacto{
         text-align: center;
@@ -88,16 +68,8 @@
     &__form{
         text-align: center;
     }
-    &__titulo-pedidos{
-        text-align: center;
-        font-size: 40px;
-        background-color: #89ac76;
-        color:beige;
-        letter-spacing: 15px;
-        margin: 1px;
-        padding: 3px;
-        margin-top: 5vh;
-        margin-bottom: 3vh;
+    &__cuadernos--__titulo-pedidos{
+        @extend .main1__cuadernos;
     }
     &__texto-pedido{
         text-align: center;
