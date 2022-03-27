@@ -9,7 +9,9 @@ body {
   background-position: center; }
 
 .header__logo {
-  width: 12%; }
+  width: 12%; 
+  border-radius: 150px;
+}
 
 .header__primer-titulo {
   text-align: center;
@@ -70,15 +72,25 @@ body {
   margin-top: 2vh;
   text-align: center; }
 
-.main1__nosotros {
+.main1__nosotros{
   text-align: center;
   font-size: 2rem;
   background-color: #89ac76;
   color: whitesmoke;
-  letter-spacing: 2rem;
   margin: 1px;
   padding: 3px;
-  margin-top: 5vh; }
+  margin-top: 5vh; 
+}
+
+.main1__contacto{
+  text-align: center;
+  font-size: 2rem;
+  background-color: #89ac76;
+  color: whitesmoke;
+  margin: 1px;
+  padding: 3px;
+  margin-top: 5vh; 
+}
 
 .main1__nosotrostexto {
   text-align: center;
@@ -86,47 +98,64 @@ body {
   margin-bottom: 10vh;
   margin-top: 10vh;
   color: black;
-  text-shadow: 2px 2px 3px black; }
+  text-shadow: 2px 2px 3px black; 
+}
 
 .main1__cuadernos, .main1__cuadernos--__decohogar, .main1__cuadernos--__contacto, .main1__cuadernos--__titulo-pedidos {
   text-align: center;
   font-size: 40px;
   background-color: #89ac76;
   color: beige;
-  letter-spacing: 15px;
+  letter-spacing: 3px;
   margin: 1px;
   padding: 3px;
   margin-top: 5vh;
   margin-bottom: 3vh; }
 
-.main1__texto-contacto {
+.main1__texto-contacto{
   text-align: center;
-  font-size: 30px; }
+  font-size: 30px; 
+}
 
 .main1__form {
   text-align: center; }
 
-.main1__texto-pedido {
+.main1__texto-pedido{
   text-align: center;
-  font-size: 30px; }
+  font-size: 30px; 
+}
+.main1__titulo-pedidos{
+  text-align: center;
+  font-size: 30px;
+  background-color: #89ac76;
+  color: beige;
+  letter-spacing: 1px;
+  margin: 1px;
+  padding: 3px;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
 
 .main1__señalador {
   text-align: center;
   width: 60vh;
   margin-top: 10vh;
   margin-bottom: 10vh;
-  margin-left: 5vh;
-  margin-right: 5vh; }
+  margin-left: 3vh;
+  margin-right: 3vh; }
 
 .main1__pie-grilla {
   font-size: 1.5rem;
   color: black;
   margin: 5%;
-  text-align: center; }
+  margin-top: 10vh;
+  text-align: center;
+ }
 
 .main1__grilla-index {
   margin-top: 5%;
-  margin-bottom: 5%; }
+  margin-bottom: 5%;
+}
 
 .main1__img-car {
   height: 40vh;
@@ -166,3 +195,8 @@ body {
 
 .footer__cards {
   height: 10vh; }
+
+.main1__img-carrusel{
+  height:70vh;
+  object-fit:cover;
+}

@@ -26,6 +26,16 @@
     &__consulta--__donde{
         @extend .main1__consulta;
     }
+    
+    &__contacto{
+        text-align: center;
+        font-size: 27px;
+        color: rgb(37, 34, 34);
+        background-color: $verde-grano;
+        margin: 1vh;
+        padding: 1vh;
+     
+    }
     &__nosotros{
         text-align: center;
         font-size: 2rem;
@@ -74,8 +84,12 @@
     &__texto-pedido{
         text-align: center;
         font-size: 30px;
-    
     }
+
+    &__titulo-pedidos{
+        @extend .main1__cuadernos
+    }    
+    
     &__señalador{
         text-align: center;
         width: 60vh;

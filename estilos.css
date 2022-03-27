@@ -19,7 +19,7 @@ body{
     margin-top: 5px;
 }
 .img-car{
-    height: 40vh;
+    height: 80vh;
     object-fit:cover;
 }
 .texto-nav{

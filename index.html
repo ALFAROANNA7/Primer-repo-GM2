@@ -34,33 +34,35 @@
 </header>
   <br>
   <br>
-  <main class="main1">
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+<section class="container-fluid">
+  <div clase="row">
+    <div class="col-md-12 p-0">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imagenes/cartu1.jpg" class="d-block w-100 main1__img-carrusel" alt="imagen-cartuchera">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/agenda3.jpg" class="d-block w-100 main1__img-carrusel" alt="imagen-agenda1">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/carousel1.jpg" class="d-block w-100 main1__img-carrusel" alt="imagen-mate">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./imagenes/carousel1.jpg" class="d-block w-100 main1__img-car" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./imagenes/carousel4.jpg" class="d-block w-100 main1__img-car" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./imagenes/carousel6.jpg" class="d-block w-100 main1__img-car" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
+</section> 
+
   <br>
   <div class="main1__compra-online">
       <h2> COMPRA ONLINE, Y RECIBI TUS PRODUCTOS EN LA PUERTA DE TU CASA !</h2>
@@ -79,36 +81,36 @@
         </form>
     </div>
     <div class="col-md-6">
-      <h3 class="main1__donde">DONDE ESTAMOS?</h3>
+      <h3 class="main1__consulta">DONDE ESTAMOS?</h3>
       <iframe class="main1__mapita" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2756.1524614069635!2d-58.214990805027284!3d-34.764758140635244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32f35ec04b7b9%3A0x2ab96d40942d9a12!2sCUS%2C%20Av.%2014%204444%2C%20B1884%20Berazategui%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1642446424248!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="layz"></iframe>
       </div>
     </div> 
   </div>
 <div class="main1__pie-grilla"> <p>HORARIO:Lunes a viernes de 9 a 17hs/Sabados 9 a 15 hs</p></div>
 </main>
-<footer class="footer__futer">
+<footer class="foote">
   <section class="container">
     <div class="row">
       <div class="col-md-4 footer__grilla">
         <h3 class="footer__titulosfooter">MEDIOS DE PAGO</h3>
-        <img class="footer__cards" src="./imagenes/maestro.png" alt="">
-        <img class="footer__cards" src="./imagenes/visa.png" alt="">
-        <img class="footer__cards" src="./imagenes/american-express.png" alt="">
+        <img class="footer__cards" src="./imagenes/maestro.png" alt="imagen-maestro">
+        <img class="footer__cards" src="./imagenes/visa.png" alt="imagen-visa">
+        <img class="footer__cards" src="./imagenes/american-express.png" alt="imagen-american">
       </div>
       <div class="col-md-4 footer__grilla">
         <h3 class="footer__titulosfooter">CONTACTO</h3>
-        <img class="footer__cards" src="./imagenes/whatsapp.png" alt="">
-        <img class="footer__cards" src="./imagenes/email.png" alt="">
+       <a target="_blank" href="https://web.whatsapp.com/"> <img class="footer__cards" src="./imagenes/whatsapp.png" alt="imagen-wsp"> </a>
+        <img class="footer__cards" src="./imagenes/email.png" alt="imagen-mail">
       </div>
       <div class="col-md-4 footer__grilla">
         <h3 class="footer__titulosfooter">SEGUINOS EN</h3>
-        <img class="footer__cards"src="./imagenes/instagram.png" alt="">
-        <img class="footer__cards" src="./imagenes/facebook.png" alt="">
+       <a target="_blank" href="https://www.instagram.com/"><img class="footer__cards"src="./imagenes/instagram.png" alt="icono-instagram"/></a> 
+       <a target="_blank" href="https://es-la.facebook.com/" ><img class="footer__cards" src="./imagenes/facebook.png"alt="imagen-facebook"></a> 
       </div>
     </div>
   </section>
   <p class="footer__copy">Copyright Libreria Cristiana GRANO DE MOSTAZA |Tienda Online 2022</p>
-  <img class="footer__afip"src="./imagenes/afip.png" alt="">
+  <img class="footer__afip"src="./imagenes/afip.png" alt="imagen-afip">
 </footer>
 
 
